@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: regular;
 }
@@ -12,12 +12,27 @@ header {
   background-color: #ffffff;
 }
 
+.logo {
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-accent {
+  color: #2e2f42;
+}
+
 ol,
 ul {
   list-style-type: none;
 }
 
 .navigation {
+  font-weight: 500;
   color: #2e2f42;
 }
 .navigation:hover {
@@ -30,6 +45,8 @@ ul {
 
 .address {
   color: #434455;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 .address:hover {
   color: #404bbf;
@@ -41,14 +58,18 @@ ul {
   line-height: 60px;
   text-align: center;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .button {
+  font-family: "Roboto" sans-serif;
   color: #ffffff;
   background-color: #4d5ae5;
   line-height: 1.5;
-  font-weight: medium;
+  font-weight: 500;
   cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.04em;
 }
 .button:hover {
   background-color: #404bbf;
@@ -59,17 +80,38 @@ ul {
   color: #ffffff;
 }
 
-.title2 {
-  font-size: 36;
+.sec1-title2 {
+  font-size: 36px;
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
 }
 
+.sec2-title2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: bold;
+}
+
+.sec3-title2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .title3 {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: medium;
 }
@@ -78,7 +120,19 @@ ul {
   background-color: #f4f4fd;
 }
 
-footer {
+.prCard {
+  background-color: #ffffff;
+}
+
+.page-footer {
   background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.page-footer-text {
+  letter-spacing: 0.02em;
+}
+
+.page-footer-logo-accent {
   color: #f4f4fd;
 }
