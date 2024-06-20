@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fcfcfc;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  color: #2e2f42;
+}
+.navigation:hover {
+  color: #404bbf;
+}
+.navigation:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address {
+  color: #434455;
+}
+.address:hover {
+  color: #404bbf;
+}
+
+.title1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  line-height: 1.07;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  font-weight: medium;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #404bbf;
+}
+
+.hero-image {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.title2 {
+  font-size: 36;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.title3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  font-weight: medium;
+}
+
+.sec2 {
+  background-color: #f4f4fd;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
