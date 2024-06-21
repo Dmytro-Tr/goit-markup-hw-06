@@ -50,7 +50,8 @@ header {
   font-weight: 500;
   color: #434455;
 }
-.contacts-info:focus {
+.contacts-info:hover,
+:focus {
   color: #404bbf;
 }
 
