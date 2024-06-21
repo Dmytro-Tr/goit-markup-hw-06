@@ -32,6 +32,9 @@ header {
 
 .navigation-item {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .navigation-item:hover {
@@ -39,7 +42,6 @@ header {
 }
 .navigation-item:active {
   color: #404bbf;
-  /* text-decoration: underline; */
 }
 
 .aside {
@@ -55,7 +57,6 @@ header {
 }
 .aside-item:active {
   color: #404bbf;
-  /* text-decoration: underline; */
 }
 
 .title {
