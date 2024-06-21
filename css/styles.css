@@ -38,7 +38,7 @@ header {
   color: #2e2f42;
 }
 .menu-link:hover,
-:active {
+:focus {
   color: #404bbf;
 }
 
@@ -50,8 +50,7 @@ header {
   font-weight: 500;
   color: #434455;
 }
-.Contacts-info:hover,
-:active {
+.Contacts-info:focus {
   color: #404bbf;
 }
 
