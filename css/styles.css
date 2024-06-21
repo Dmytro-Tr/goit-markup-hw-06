@@ -42,15 +42,15 @@ header {
   color: #404bbf;
 }
 
-.Contacts {
+.contacts {
   font-style: normal;
 }
 
-.Contacts-info {
+.contacts-info {
   font-weight: 500;
   color: #434455;
 }
-.Contacts-info:focus {
+.contacts-info:focus {
   color: #404bbf;
 }
 
