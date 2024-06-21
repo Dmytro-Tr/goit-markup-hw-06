@@ -22,25 +22,23 @@ header {
   color: #4d5ae5;
 }
 
-.logo-accent {
+.accent {
   color: #2e2f42;
 }
 
-.navigation {
+.menu {
   list-style-type: none;
 }
 
-.navigation-item {
+.menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation-item:hover {
-  color: #404bbf;
-}
-.navigation-item:active {
+.menu-item:hover,
+:active {
   color: #404bbf;
 }
 
@@ -52,10 +50,8 @@ header {
   font-weight: 500;
   color: #434455;
 }
-.aside-item:hover {
-  color: #404bbf;
-}
-.aside-item:active {
+.aside-item:hover,
+:active {
   color: #404bbf;
 }
 
