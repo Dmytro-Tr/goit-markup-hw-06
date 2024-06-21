@@ -42,14 +42,18 @@ header {
   text-decoration: underline;
 }
 
-.address-btn {
+aside {
+  font-size: normal;
+}
+
+.aside-btn {
   font-weight: 500;
   color: #434455;
 }
-.address-btn:hover {
+.aside-btn:hover {
   color: #404bbf;
 }
-.address-btn:active {
+.aside-btn:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -127,7 +131,7 @@ header {
   font-size: 16px;
 }
 
-.prCard {
+.prcard {
   background-color: #ffffff;
 }
 
