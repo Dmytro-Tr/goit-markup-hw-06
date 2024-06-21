@@ -30,30 +30,30 @@ header {
   list-style-type: none;
 }
 
-.menu-btn {
+.menu-item {
   font-weight: 500;
   color: #2e2f42;
 }
-.menu-btn:hover {
+.menu-item:hover {
   color: #404bbf;
 }
-.menu-btn:active {
+.menu-item:active {
   color: #404bbf;
   text-decoration: underline;
 }
 
-aside {
+.aside {
   font-size: normal;
 }
 
-.aside-btn {
+.aside-item {
   font-weight: 500;
   color: #434455;
 }
-.aside-btn:hover {
+.aside-item:hover {
   color: #404bbf;
 }
-.aside-btn:active {
+.aside-item:active {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -78,7 +78,7 @@ aside {
   font-size: 16px;
   letter-spacing: 0.04em;
 }
-.button:focus {
+.button:hover {
   background-color: #404bbf;
 }
 
