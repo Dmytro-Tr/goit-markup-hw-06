@@ -26,24 +26,24 @@ header {
   color: #2e2f42;
 }
 
-.menu-nav {
+.navigation {
   list-style-type: none;
 }
 
-.menu-item {
+.navigation-item {
   font-weight: 500;
   color: #2e2f42;
 }
-.menu-item:hover {
+.navigation-item:hover {
   color: #404bbf;
 }
-.menu-item:active {
+.navigation-item:active {
   color: #404bbf;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .aside {
-  font-size: normal;
+  font-style: normal;
 }
 
 .aside-item {
@@ -55,7 +55,7 @@ header {
 }
 .aside-item:active {
   color: #404bbf;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .title {
@@ -78,7 +78,8 @@ header {
   font-size: 16px;
   letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+:focus {
   background-color: #404bbf;
 }
 
