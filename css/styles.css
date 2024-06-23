@@ -145,3 +145,11 @@ header {
 .page-footer-logo-accent {
   color: #f4f4fd;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
