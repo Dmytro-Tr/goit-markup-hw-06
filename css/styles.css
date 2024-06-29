@@ -341,6 +341,7 @@ header {
 
 .page-footer-logo-accent {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .footer-container {
