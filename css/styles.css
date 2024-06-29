@@ -55,6 +55,10 @@ header {
   background-color: #ffffff;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .logo-web {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -80,6 +84,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -122,6 +127,7 @@ header {
   border-bottom: 1px solid var;
   width: 1440px;
   height: 72px;
+  padding: 0 15px;
 }
 
 .nav {
@@ -146,8 +152,8 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-top: 188px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .button {
@@ -160,15 +166,14 @@ header {
   font-size: 16px;
   letter-spacing: 0.04em;
 
-  margin-top: 0;
-  margin-bottom: 188px;
-  display: flex;
+  display: block;
   border-radius: 4px;
   border: 0;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
+  min-width: 169px;
 }
 .button:hover,
 .button:focus {
@@ -178,6 +183,7 @@ header {
 .hero-image {
   background-color: #2e2f42;
   color: #ffffff;
+  padding: 188px 0;
 }
 
 .hero-image {
@@ -225,6 +231,7 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: medium;
+  margin-bottom: 8px;
 }
 
 /* ------Section 2------ */
@@ -339,5 +346,9 @@ header {
 .footer-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+}
+
+.logo-web {
+  display: inline-block;
+  margin-bottom: 16px;
 }
