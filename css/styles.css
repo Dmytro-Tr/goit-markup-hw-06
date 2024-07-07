@@ -203,7 +203,8 @@ header {
   background-color: #404bbf;
 }
 
-.hero-image {
+.hero-container {
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -212,10 +213,9 @@ header {
     ),
     url(/images/people-office-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   color: #ffffff;
-  max-width: 1440px;
 }
 
 /* ------Section 1------ */
