@@ -440,20 +440,23 @@ header {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
 .page-footer-text {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
 
-.page-footer-logo-accent {
-  color: #f4f4fd;
+.fotter-logo-text {
+  margin-right: 120px;
 }
 
-.footer-container {
-  display: flex;
-  gap: 120px;
-  justify-content: flex-start;
-  align-items: flex-start;
+.page-footer-logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-logo-web {
@@ -461,14 +464,14 @@ header {
   margin-bottom: 16px;
 }
 
-.fotter-title {
+.fotter-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
-  padding-bottom: 16px;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer-container-social {
@@ -481,7 +484,7 @@ header {
   gap: 16px;
 }
 
-.social-link {
+.fotter-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,10 +493,12 @@ header {
   height: 40px;
   border-radius: 50%;
 }
-.social-link:hover {
+.fotter-social-link:hover,
+.fotter-social-link:focus {
   background-color: #31d0aa;
 }
 
 .social-icon {
   fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
