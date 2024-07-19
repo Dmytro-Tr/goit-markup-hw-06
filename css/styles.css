@@ -179,8 +179,6 @@ header {
 .hero-container {
   display: flex;
   flex-direction: column;
-  padding-top: 156px;
-  padding-bottom: 220px;
 }
 
 .title {
@@ -231,6 +229,7 @@ header {
 .hero-image {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 188px;
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
@@ -490,9 +489,7 @@ header {
 
 
 .footer-container-social {
-  width: 208px;
-  height: 100%;
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .footer-social-list {
@@ -552,7 +549,7 @@ header {
   color: #ffffff;
 }
 
-placeholder {
+.footer-form-email::placeholder {
   color: #ffffff;
 }
 
@@ -603,11 +600,11 @@ placeholder {
   pointer-events: none;
 }
 
-.modal-overlay.is-open {
+/* .modal-overlay.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 .modal {
   position: absolute;
@@ -625,8 +622,6 @@ placeholder {
 }
 
 .modal-close-button {
-  /* margin-left: auto;
-  margin-bottom: 24px; */
   position: absolute;
   top: 24px;
   right: 24px;
