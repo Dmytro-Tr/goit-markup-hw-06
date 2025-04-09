@@ -551,7 +551,7 @@ header {
 .feature-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     gap: 72px;
 }
 
